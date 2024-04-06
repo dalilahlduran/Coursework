@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/96/47/99/360_F_296479946_azh5yRwXoosBiVjpVbvcMPnZTTqBrVLH.jpg");
+  }
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: skyblue;
+    text-shadow: 2px 2px 3px black;
+}
+
+#type {
+    font-size: 60px;
+    text-align: center;
+    color: hotpink;
+    font-weight: 800;
+    border: 2px solid pink;
+    background-color: pink;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 4rem;
+    outline-offset: 3rem;
+    box-shadow: 0 0 0 1rem hotpink;
+}
+
+h2 {
+    font-size: 40px;
+    text-shadow: 3px 3px 4px hotpink, 0 0 1em purple, 0 0 0.2em skyblue;
+
+}
+
+.table {
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  width: 550;
+}
+
+.Parent {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    display: flex;
+    justify-content: flex-end;
+}
