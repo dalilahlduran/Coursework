@@ -1,0 +1,74 @@
+
+// This is main title
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 2px gold, 0 0 1em darkgreen, 0 0 0.2em maroon;
+}
+
+// This is second title
+.h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+// This is third title
+.h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+// This is background image
+body {
+    background-image: url("https://uswalldecor.com/cdn/shop/files/RMK12592RL.jpg?v=1695066800&width=1445");
+}
+
+// Parent class is made to fix alignment and make all content dynamically centered
+.Parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// Created a class for links to make them all consistent
+.Link{
+    text-align: right;
+    // justify-content: flex-start;
+    align-content: stretch;
+    position: relative;
+    bottom: 250px;
+    font-size: 35px
+}
+
+// Books is the borders
+.books{
+    border: 0.5rem outset black;
+    outline: 0.5rem solid darkolivegreen;
+    box-shadow: 0 0 0 .5rem maroon;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    width: 1000;
+    justify-content: center;
+    // margin-left: 900;
+
+}
+
+// Top is made to custimize the top link
+.top{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+}
+
+// Feedback is made to custimize the feedback link
+.feedback{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+}
+

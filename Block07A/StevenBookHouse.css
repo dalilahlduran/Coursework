@@ -1,0 +1,60 @@
+h1 {
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 1px 1px 2px gold, 0 0 1em darkgreen, 0 0 0.2em maroon;
+}
+
+.h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.h3 {
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://uswalldecor.com/cdn/shop/files/RMK12592RL.jpg?v=1695066800&width=1445");
+}
+
+.Parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Link {
+  text-align: right;
+  align-content: stretch;
+  position: relative;
+  bottom: 250px;
+  font-size: 35px;
+}
+
+.books {
+  border: 0.5rem outset black;
+  outline: 0.5rem solid darkolivegreen;
+  box-shadow: 0 0 0 0.5rem maroon;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  width: 1000;
+  justify-content: center;
+}
+
+.top {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.feedback {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 900;
+}/*# sourceMappingURL=StevenBookHouse.css.map */
