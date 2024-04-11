@@ -1,0 +1,39 @@
+$primary-color: blue;
+$secondary-color: red;
+$TOPIC_COLOR:green;
+
+
+.nav {
+    background-color: $primary-color;
+}
+
+.nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+
+.h1{
+ color :$TOPIC_COLOR
+}
+.nav{
+color: $secondary-color;
+     font-size: 30px;
+}
+.button {
+  	background-color: $primary-color;
+  	color: white;
+  	padding: 10px;
+ 	border: none;
+ 	cursor: pointer;
+}

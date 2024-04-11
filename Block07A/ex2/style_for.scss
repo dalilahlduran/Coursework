@@ -1,0 +1,16 @@
+$colors: #F94144, #F3722C, #F8961E, #F9C74F, #90BE6D, #43AA8B, #577590, #6D6875, #1D3557, #3D3D3D;
+
+@function random-color() 
+{
+  @return nth($colors, random(length($colors)));
+}
+
+
+@for $i from 1 through 5 
+{
+    .class-#{$i} 
+    {
+      font-size: 10px * $i;
+      color: random-color();
+    }
+}
